@@ -45,5 +45,52 @@ a {
     gap: 20px;
 }
 
+/* HERO */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-container {
+    max-width: 80%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content,
+.hero-image {
+    flex: 1;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-content p {
+    font-size: 18px;
+}
+
+.hero-content button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 
 
