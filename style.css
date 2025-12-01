@@ -154,5 +154,42 @@ a {
     margin-top: 10px;
 }
 
+/* SIGNUP */
+
+.signup {
+    padding: 50px;
+}
+
+.signup-container {
+    max-width: 80%;
+    margin: auto;
+    background-color: #3882F6;
+    padding: 20px 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.signup h4 {
+    font-size: 22px;
+}
+
+.signup p {
+    font-size: 16px;
+}
+
+.signup button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
 
 
