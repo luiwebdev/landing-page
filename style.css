@@ -92,5 +92,44 @@ a {
     display: block;
 }
 
+/* INFORMATION */
+
+.information {
+    padding: 30px;
+}
+
+.information h3 {
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.information .box-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.information .box {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.information .square {
+    border: 2px solid #3882F6;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.information p {
+    text-align: center;
+}
+
 
 
