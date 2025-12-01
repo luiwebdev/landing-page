@@ -17,9 +17,18 @@ a {
     text-decoration: none;
 }
 
+/* MAX WIDTH */
+
+.header-container,
+.hero-container,
+.signup-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
 /* COLORS */
 
-.header, 
+.header,
 .hero,
 .footer {
     background-color: #1F2937;
@@ -27,11 +36,12 @@ a {
 
 }
 
-.header {
+.header-container {
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 
     font-size: 18px
 }
@@ -47,19 +57,12 @@ a {
 
 /* HERO */
 
-.hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
 .hero-container {
-    max-width: 80%;
-    padding: 50px;
+    padding: 50px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .hero-content,
@@ -161,8 +164,6 @@ a {
 }
 
 .signup-container {
-    max-width: 80%;
-    margin: auto;
     background-color: #3882F6;
     padding: 20px 50px;
     color: white;
@@ -195,8 +196,3 @@ a {
     padding: 20px;
     text-align: center;
 }
-
-
-
-
-
