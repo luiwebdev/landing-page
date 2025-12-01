@@ -131,5 +131,28 @@ a {
     text-align: center;
 }
 
+/* INSPIRATION */
+
+.inspiration {
+    background-color: ghostwhite;
+    color: #555;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.inspiration .quote {
+    max-width: 800px;
+    font-size: 26px;
+}
+
+.inspiration h4 {
+    font-size: 18px;
+    text-align: right;
+    margin-top: 10px;
+}
+
 
 
